@@ -1,0 +1,90 @@
+#menu{
+	background: url(bluec_30p.png);
+	height:40px;
+}
+
+dl{
+	height:40px;
+	margin:0; padding:0;
+	display: block;
+	float: left;
+}
+/* Mise en page des titres des menus déroulants */
+
+dt{
+	width:150px;
+	display: block;
+	height:40px;
+	color:#3A29AB;
+	line-height:40px;
+	text-align:center;
+	border-right:dotted 1px #01A9DB;
+	cursor:pointer;
+}
+/* Mise en page des titres des menus déroulants */
+
+dd{
+	display:block;
+	margin:0; padding:0;
+	background: url(bluec_30p.png);
+}
+dd ul{
+	margin:0;padding:0;
+	text-align:center;
+	list-style:none;
+}
+dd ul li{
+	display:block;
+	margin:0; padding:0;
+}
+dd ul li a{
+	color:#3A29AB;
+	display:block;
+	text-decoration:none;
+	width:150px;
+	height:30px;
+	line-height:30px;
+	border-top:dotted 1px #01A9DB;
+}
+/* On change la couleur de la case ou l'on passe la souris */
+dd ul li a:hover{
+	background:url(0017-bleu-680.jpg);
+	color:#FFF;
+}
+/* On fait disparaitre les menus déroulants quand 
+on ne passe pas la souris dessus */
+dl dd{
+	display:none;
+}
+dl:hover dd{
+	display:block;
+}
+/* Mise en page du texte */
+.header
+{
+	text-align:center;
+}
+.content
+{
+    text-align:center;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	margin:auto;
+	padding:20px;
+	margin-top:20px;
+	font-family:Arial;
+}
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background: url(bluec_30p.png);
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
