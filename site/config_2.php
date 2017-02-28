@@ -5,7 +5,7 @@
 ******************************************************/
 
 //Nom du fichier de laccueil
-$url_home = 't.php';
+$url_home = 'accueil.php';
 
 //Nom du design
 $design = 'default';
